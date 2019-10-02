@@ -19,7 +19,7 @@ import (
 )
 
 func main() {
-    logFileName:= logfile
+    logFileName:= "logfile"
     rotateTickDuration:= time.Minute
 
     logSave := logfile.NewLogSave(logFileName, rotateTickDuration)
